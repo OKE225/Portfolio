@@ -1,0 +1,222 @@
+:root {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0 0 20px #909090;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 3rem;
+  margin-right: 75px;
+  margin-left: 75px;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 4px dotted #000;
+}
+
+#home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+#home-section > img {
+  width: 600px;
+  height: 600px;
+  border-radius: 35px;
+  box-shadow: 0 0 20px #909090;
+  margin-right: 50px;
+}
+
+#home-section > #user-info {
+  margin-left: 50px;
+}
+
+.profession > p {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+.name > h1 {
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.home-contact > p,
+.home-contact > ul,
+.description > p {
+  font-size: 2.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.home-contact > ul {
+  margin-left: 25px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.home-contact > ul > li > a {
+  color: #000;
+}
+
+#education-section,
+#skills-section {
+  display: block;
+  width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#education-section > .heading > h2,
+#skills-section > .heading > h2 {
+  font-size: 5rem;
+  margin-left: 150px;
+}
+
+.school {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#education-section .gray-text {
+  font-size: 2rem;
+  color: #aaaaaa;
+  margin: 0;
+  padding: 0;
+}
+
+#education-section .school-info {
+  font-size: 2.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+#education-section ul {
+  font-size: 2.4rem;
+  margin: 0 auto 0 auto;
+  padding: 0 auto 0 auto;
+}
+
+#projects-section {
+  margin-top: 200px;
+}
+
+#projects-section > .heading > h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#card-section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card img {
+  width: 550px;
+  height: 374px;
+  margin-top: 75px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 5px #909090;
+}
+
+.card p,
+.card i {
+  font-size: 2.8rem;
+  width: 550px;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.card i {
+  font-size: 5rem;
+}
+
+#skills-section {
+  margin-bottom: 200px;
+}
+
+#program-language {
+  font-size: 4rem;
+}
+
+#program-language i {
+  font-size: 5rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 20px #909090;
+}
+
+footer > #contact-section > .heading > h3 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 25px;
+  font-weight: 400;
+}
+
+footer > #contact-section > #footer-content {
+  display: flex;
+  justify-content: center;
+  font-size: 6rem;
+}
+
+.github,
+.twitch,
+.ig,
+.dsc,
+.twitter {
+  margin-right: 50px;
+  margin-left: 50px;
+}
