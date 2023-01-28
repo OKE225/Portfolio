@@ -321,11 +321,7 @@ footer > #contact-section > #footer-content {
 @media only screen and (max-width: 500px) {
   #home-section {
     display: block;
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 100%;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-top: 10rem;
   }
 
